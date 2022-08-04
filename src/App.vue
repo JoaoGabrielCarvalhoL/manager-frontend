@@ -1,10 +1,25 @@
 <template>
+<div id="navig">
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <MenuLogin></MenuLogin>
+     <Menu></Menu>
+     <hr/>
   </nav>
+</div>  
   <router-view/>
 </template>
+
+<script>
+import Menu from './components/Menu'
+import MenuLogin from './components/MenuLogin'
+
+export default {
+  components: {
+    Menu,
+    MenuLogin
+}
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -18,6 +33,10 @@
 nav {
   padding: 30px;
 
+  hr {
+    border-bottom: 1.4px solid #2c3e50;
+  }
+
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -26,5 +45,8 @@ nav {
       color: #42b983;
     }
   }
-}
+
+  }
+
+
 </style>

@@ -1,0 +1,42 @@
+[
+{
+    "id": 1, 
+    "name": "Dell G15 AMD Ryzen 7", 
+    "amount": 10, 
+    "price": 8500.00, 
+    "category": {
+        "id": 2, 
+        "name": "Computer"
+    }
+},
+{
+    "id": 2, 
+    "name": "Memory Ram Impact 16 GB", 
+    "amount": 6, 
+    "price": 500.00, 
+    "category": {
+        "id": 2, 
+        "name": "Computer"
+    }
+}, 
+{
+    "id": 3, 
+    "name": "Mousepad", 
+    "amount": 60, 
+    "price": 100.00, 
+    "category": {
+        "id": 2, 
+        "name": "Computer"
+    }
+}, 
+{
+    "id": 4, 
+    "name": "Cadeira XT Racer", 
+    "amount": 5, 
+    "price": 1300.00, 
+    "category": {
+        "id": 2, 
+        "name": "Office"
+    }
+}
+]
